@@ -8,9 +8,10 @@ $brew install pyenv
 $pip3 install virtualenv << install virtual ENV machine
 ```
 
+## Running Flask
 ```
-$python -m venv myenv << create virtual ENV machine (myenv) on folder project
-$source myenv/bin/activate << activate ENV
+$python3 -m venv myenv << create virtual ENV machine (name: myenv) on folder project
+$source myenv/bin/activate << activate virtual ENV
 $pip3 install flask flask-sqlalchemy << install flask and sqlalchemy on ENV machine
-python3 app.py << running python on the ENV machine
+$python3 app.py << running python on the ENV machine & if error python founded please remove the ENV folder (rm -rf myenv) 
 ```
