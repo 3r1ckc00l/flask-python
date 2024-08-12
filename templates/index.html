@@ -5,5 +5,10 @@
 {% endblock %}
 
 {% block body %}
-<h1>Template</h1>
+<h1>Get class :</h1>
+<ul>
+    {% for i in data %}
+        <li>{{i}}</li>
+    {% endfor %}
+</ul>
 {% endblock %}
